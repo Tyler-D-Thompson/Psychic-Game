@@ -6,21 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link type="text/javascript" href="javascript.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <script type="text/javascript" src=javascript.js>
-    </script>
-    <h1>
-        Psychic Game!!!!!
-    </h1>
-    <p>
-        What letter I Am Thinking About?!?!
-    </p>
-    <p>Wins!</p>
-    <p>Losses</p>
-
-
+    <div class="container text-white text-center">
+        <script type="text/javascript" src=javascript.js>
+        </script>
+        <h1>
+            Psychic Game!!!!!
+        </h1>
+        <br>
+        <br>
+        <h2>
+            Guess What letter I Am Thinking About?!?!
+        </h2>
+        <br>
+        <p>Wins! <span id="win"></span>0</p>
+        <br>
+        <p>Losses <span id="losses">0</span></p>
+        <br>
+        <p>Number of Guesses Left: <span id="guessesLeft">0</span></p>
+        <br>
+        <h3>Gusses So Far: <span id="lettersGuessed">0</span></p>
+    </div>
+    <script type="text/javascript" src="javascript.js"></script>
 </body>
 
 </html>
